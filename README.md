@@ -29,7 +29,6 @@ This project is a chatbot designed for a real estate website. It allows users to
 ## Setup Instructions
 
     create .env file that contains:
-    ``` bash
     # Huggingface embedding model
     EMBED_MODEL = "sentence-transformers/all-mpnet-base-v2"
 
@@ -39,7 +38,6 @@ This project is a chatbot designed for a real estate website. It allows users to
 
     # Background Image
     BACKGROUND_IMAGE = "utils\images\bg-image.jpg"
-    ```
 
 ### Pytesseract Setup
 
@@ -55,6 +53,10 @@ For processing images, ensure Pytesseract is installed and properly configured.
      ```
 
 ### Installation
+**Create an virtual environment:**
+```bash
+python -m venv venv
+```
 
 **Clone the repository**:
 ```bash
