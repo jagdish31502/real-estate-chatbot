@@ -53,11 +53,14 @@ For processing images, ensure Pytesseract is installed and properly configured.
      ```
 
 ### Installation
-**Create an virtual environment:**
+**Create a virtual environment:**
 ```bash
 python -m venv venv
 ```
-
+**Activate the Virtual Environment:**
+```bash
+venv\Scripts\activate
+```
 **Clone the repository**:
 ```bash
 git clone git@github.com:jagdish31502/real-estate-chatbot.git
@@ -76,7 +79,7 @@ pip install -r requirements.txt
 streamlit run stramlit.py
 python run app.py
 ```
-**NOTE:** both server are running in different terminal (Flask for backend, and streamlit for frontend.)
+**NOTE:** Make sure that both servers are running in different terminals (Flask for back-end, and streamlit for front-end.)
 
 **Usage**
 
